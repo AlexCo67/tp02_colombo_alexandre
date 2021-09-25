@@ -1,0 +1,19 @@
+<h1 class="display-3 text-center">Récapitulatif :</h1>
+
+<div class=container>
+<ul class="list-group"></ul>
+<li class="list-group-item">Nom : {{client.lastName}}</li>
+<li class="list-group-item">Prénom : {{client.name}}</li>
+<li class="list-group-item">Adresse : {{client.adress}}</li>
+<li class="list-group-item">Code Postal : {{client.postalCode}}</li>
+<li class="list-group-item">Ville : {{client.town}}</li>
+<li class="list-group-item">Téléphone : {{client.phone}}</li>
+<li class="list-group-item">Email : {{client.email}}</li>
+<li class="list-group-item">CIVIL : {{client.civil}}</li>
+<li class="list-group-item">Login : {{client.login}}</li>
+<li class="list-group-item">Password : {{client.password}}</li>
+</div>
+<div class="container">
+    <br>
+<button class="btn btn-success" (click)="reloadCurrentPage()" >Recharger la page</button>
+</div>

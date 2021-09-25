@@ -1,0 +1,4 @@
+<app-tetiere></app-tetiere>
+<app-form *ngIf="!registrationDone" (registrationEvent)="receiveregistration($event)" (clientEvent)="recieveclient($event)"></app-form>
+<app-recapitulatif *ngIf="registrationDone" [registrationDone]="registrationDone" [client]="client"></app-recapitulatif>
+<app-footer></app-footer>
