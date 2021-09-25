@@ -7,6 +7,7 @@ import { FormComponent } from './form/form.component';
 import { FooterComponent } from './footer/footer.component';
 import { TetiereComponent } from './tetiere/tetiere.component';
 import { RecapitulatifComponent } from './recapitulatif/recapitulatif.component';
+import { internationalPhonePipe } from './internationalPhone.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RecapitulatifComponent } from './recapitulatif/recapitulatif.component'
     FormComponent,
     FooterComponent,
     TetiereComponent,
-    RecapitulatifComponent
+    RecapitulatifComponent,
+    internationalPhonePipe
 
   ],
   imports: [

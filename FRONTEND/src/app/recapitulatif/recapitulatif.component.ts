@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Client } from '../client.model';
+import { internationalPhonePipe } from '../internationalPhone.pipe';
 
 
 @Component({
